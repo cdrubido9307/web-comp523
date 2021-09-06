@@ -8,15 +8,23 @@
     <title>Immunohistochemical Validation Forms</title>
     
     <!-- Styles -->
+    
+    <!-- Add the evo-calendar.css for styling -->
+    <link rel="stylesheet" type="text/css" href="css/evo-calendar.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/evo-calendar.midnight-blue.min.css"/>
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+	<link href="css/styles.css" rel="stylesheet"/>
 
-    <link href="css/bootstrap.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
 	
 	<!-- Favicon  -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/evo-calendar.js"></script>
+
         <nav class="navbar navbar-expand-lg fixed-top navbar-light" >
             <div class="container">
                 
@@ -53,6 +61,145 @@
                     </ul>
                 </div>
             </div>
-        </nav> 
+        </nav>
+
+        <header class="header">
+            <div class="container">
+                <div id="calendar"></div>
+            </div>
+        </header>
+
+        <div class="copyright fixed-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="p-small">Copyright © <a href="#your-link">COMP523: Team <td>α</td></a></p>
+                        <p class="p-small">This site contains all relevant information for our COMP523 project</p>
+                    </div> <!-- end of col -->
+                </div> <!-- enf of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of copyright -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/evo-calendar.min.js"></script>
+                <script>
+                    $(document).ready(function() {
+                        $('#calendar').evoCalendar({
+                            calendarEvents: [
+                                {
+                                    name: "Mentor Meeting", 
+                                    date: "September/10/2021", 
+                                    description: "1:25 PM - 2:40 PM Meeting with Jeff Byzek.",
+                                    type: "event", 
+                                    color: "#0B254A"
+                                },
+                                {
+                                    name: "Mentor Meeting", 
+                                    date: "September/17/2021", 
+                                    description: "1:25 PM - 2:40 PM Meeting with Jeff Byzek.",
+                                    type: "event", 
+                                    color: "#0B254A"
+                                },
+                                {
+                                    name: "Mentor Meeting", 
+                                    date: "September/24/2021", 
+                                    description: "1:25 PM - 2:40 PM Meeting with Jeff Byzek.",
+                                    type: "event", 
+                                    color: "#0B254A"
+                                },
+                                {
+                                    name: "Mentor Meeting", 
+                                    date: "October/01/2021", 
+                                    description: "1:25 PM - 2:40 PM Meeting with Jeff Byzek.",
+                                    type: "event", 
+                                    color: "#0B254A"
+                                },
+                                {
+                                    name: "Mentor Meeting", 
+                                    date: "October/08/2021", 
+                                    description: "1:25 PM - 2:40 PM Meeting with Jeff Byzek.",
+                                    type: "event", 
+                                    color: "#0B254A"
+                                },
+                                {
+                                    name: "Mentor Meeting", 
+                                    date: "October/15/2021", 
+                                    description: "1:25 PM - 2:40 PM Meeting with Jeff Byzek.",
+                                    type: "event", 
+                                    color: "#0B254A"
+                                },
+                                {
+                                    name: "Mentor Meeting", 
+                                    date: "October/22/2021", 
+                                    description: "1:25 PM - 2:40 PM Meeting with Jeff Byzek.",
+                                    type: "event", 
+                                    color: "#0B254A"
+                                },
+                                {
+                                    name: "Mentor Meeting", 
+                                    date: "October/29/2021", 
+                                    description: "1:25 PM - 2:40 PM Meeting with Jeff Byzek.",
+                                    type: "event", 
+                                    color: "#0B254A"
+                                },
+                                {
+                                    name: "Mentor Meeting", 
+                                    date: "November/05/2021", 
+                                    description: "1:25 PM - 2:40 PM Meeting with Jeff Byzek.",
+                                    type: "event", 
+                                    color: "#0B254A"
+                                },
+                                {
+                                    name: "Mentor Meeting", 
+                                    date: "November/12/2021", 
+                                    description: "1:25 PM - 2:40 PM Meeting with Jeff Byzek.",
+                                    type: "event", 
+                                    color: "#0B254A"
+                                },
+                                {
+                                    name: "Mentor Meeting", 
+                                    date: "November/19/2021", 
+                                    description: "1:25 PM - 2:40 PM Meeting with Jeff Byzek.",
+                                    type: "event", 
+                                    color: "#0B254A"
+                                },
+                                {
+                                    name: "Mentor Meeting", 
+                                    date: "November/26/2021", 
+                                    description: "1:25 PM - 2:40 PM Meeting with Jeff Byzek.",
+                                    type: "event", 
+                                    color: "#0B254A"
+                                },
+                                {
+                                    name: "Mentor Meeting", 
+                                    date: "December/03/2021", 
+                                    description: "1:25 PM - 2:40 PM Meeting with Jeff Byzek.",
+                                    type: "event", 
+                                    color: "#0B254A"
+                                },
+                                {
+                                    name: "Mentor Meeting", 
+                                    date: "December/10/2021", 
+                                    description: "1:25 PM - 2:40 PM Meeting with Jeff Byzek.",
+                                    type: "event", 
+                                    color: "#0B254A"
+                                },
+                                {
+                                    name: "Mentor Meeting", 
+                                    date: "December/17/2021", 
+                                    description: "1:25 PM - 2:40 PM Meeting with Jeff Byzek.",
+                                    type: "event", 
+                                    color: "#0B254A"
+                                },
+                                {
+                                    name: "Client Meeting", 
+                                    date: "September/10/2021", 
+                                    description: "3:00 PM - 4:00 PM Meeting with Dimitri Trembath.",
+                                    type: "event", 
+                                    color: "#0B254A"
+                                },
+                            ]                           
+                        })
+                    })
+                </script>
     </body>
 </html>
