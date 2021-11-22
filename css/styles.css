@@ -1657,4 +1657,11 @@ a:hover.back-to-top {
 	color: #266DD3;
 }
 
+.img-size {
+
+	display: block;
+	max-width: 50%;
+	height: 50%;
+}
+
 /* end of min-width 1200px */
